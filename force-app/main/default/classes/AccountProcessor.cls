@@ -9,9 +9,7 @@ public class AccountProcessor {
             //acc.Number_Of_Contacts__c = contacts.size();
             acc.Number_Of_Contacts__c = acc.Contacts.size();
             System.debug(acc.Number_Of_Contacts__c);
-            System.debug('some text develop after changes123');
+            System.debug('some text develop 1');
         }
         update accounts;
-    }
-
 }
